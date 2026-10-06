@@ -1,0 +1,26 @@
+[
+  {
+    "name": "simple data query",
+    "iterations": 3,
+    "min": 6.059,
+    "max": 8.426,
+    "avg": 7.306,
+    "median": 7.432
+  },
+  {
+    "name": "code generation",
+    "iterations": 3,
+    "min": 13.905,
+    "max": 18.602,
+    "avg": 16.567,
+    "median": 17.194
+  },
+  {
+    "name": "complex workflow",
+    "iterations": 3,
+    "min": 17.041,
+    "max": 26.472,
+    "avg": 22.665,
+    "median": 24.483
+  }
+]

@@ -8,6 +8,7 @@ dependencies = [
     "langchain-openai>=1.0",
     "python-dotenv>=1.0",
     "pytest>=8.0",
+    "pytest-asyncio>=1.4.0",
 ]
 
 [build-system]
@@ -20,3 +21,5 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 addopts = "-q -p no:cacheprovider"
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
